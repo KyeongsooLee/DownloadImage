@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: palevioletred;
+    background: linear-gradient(145deg, #de6262, #b64a4a);
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+header h1{
+    font-size: 2rem;
+    color: darkblue;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 15px;
+    background: linear-gradient(145deg, #06beb6, #48b1bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+main .media{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .media.dashed{
+    border: 2px dashed #06beb6;
+}
+
+main .media i {
+    font-size: 7rem;
+    color: #2193b0;
+    background: liner-gradient(70deg, #2193b0, #6dd5ed);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main .media img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+main form{
+    margin: 15px 0;
+}
+
+main form input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+main form button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: orange;
+    background: linear-gradient(145deg, #06beb6, #48b1bf);
+    color: white;
+    border-radius: 5px;
+    padding: 12px 0;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+main form input:valid ~ button{
+    opacity: 1;
+    pointer-events: auto;
+}
