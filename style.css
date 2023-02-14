@@ -14,7 +14,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background: palevioletred;
-    background: linear-gradient(145deg, #de6262, #b64a4a);
+    background: linear-gradient(145deg, #eab7b7, #f47272);
     position: relative;
 }
 
