@@ -55,7 +55,7 @@ main .media.dashed{
 main .media i {
     font-size: 7rem;
     color: #2193b0;
-    background: liner-gradient(70deg, #2193b0, #6dd5ed);
+    background: linear-gradient(70deg, #2193b0, #6dd5ed);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
